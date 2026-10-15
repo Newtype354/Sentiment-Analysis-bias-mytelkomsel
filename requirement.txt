@@ -1,0 +1,31 @@
+# =======================================================
+# Dependencies for Sentiment Analysis & Bias Evaluation
+# Proyek: Analisis Bias pada Ulasan Aplikasi MyTelkomsel
+# =======================================================
+
+# --- Data Scraping & Collection ---
+google-play-scraper>=1.2.7    # Scraping ulasan langsung dari Google Play Store
+
+# --- Data Manipulation & Computation ---
+pandas>=2.0.0                 # Manipulasi tabel data, pembacaan/penyimpanan CSV & JSON
+numpy>=1.24.0                 # Operasi matriks dan array numerik
+
+# --- Natural Language Processing (NLP) ---
+nltk>=3.8.1                   # Tokenisasi kalimat/kata (punkt, punkt_tab, word_tokenize)
+Sastrawi>=1.0.1               # Pemrosesan bahasa Indonesia: Stopword removal & Stemmer
+
+# --- Machine Learning & Statistics ---
+scikit-learn>=1.3.0           # TF-IDF Vectorizer, Train/Test Split, K-Fold CV, Logistic Regression, Metrik Evaluasi
+statsmodels>=0.14.0           # Fleiss' Kappa untuk mengukur reliabilitas kesepakatan antar-anotator (analisis bias)
+catboost>=1.2.0               # Model klasifikasi CatBoost (support CPU & GPU)
+
+# --- Visualization ---
+matplotlib>=3.7.0             # Visualisasi Confusion Matrix & grafik metrik
+
+# --- Google Sheets Export (Opsional) ---
+gspread>=6.0.0                # Membaca & menulis hasil pemrosesan kembali ke Google Sheets
+google-auth>=2.20.0           # Autentikasi Google API / Service Account
+
+# --- Jupyter Environment ---
+ipykernel>=6.25.0             # Menjalankan notebook pada environment Python lokal
+

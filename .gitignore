@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# CatBoost
+catboost_info/
+
+# Data & Output generated files
+# Uncomment if you want to keep large generated files out of version control:
+# data/raw/*.csv
+# data/processed/*.json
+
+# Environments
+.env
+.vscode/
+.idea/
+
