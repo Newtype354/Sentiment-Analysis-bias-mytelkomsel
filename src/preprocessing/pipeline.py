@@ -64,7 +64,6 @@ def build_normalization_dict() -> tuple[dict, dict]:
         ))
     except Exception:
         kamus_slang = {}
-
     kamus_manual = {
         "gk": "tidak", "ga": "tidak", "gak": "tidak", "ngak": "tidak", "nggak": "tidak", "tdk": "tidak",
         "yg": "yang", "udh": "sudah", "udah": "sudah", "sdh": "sudah", "blm": "belum", "belom": "belum",
